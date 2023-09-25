@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: autodeploy
-  namespace: namespace-workflow-1692811819315
+  namespace: namespace-workflow-1695639089892
 spec:
   type: LoadBalancer
   selector:

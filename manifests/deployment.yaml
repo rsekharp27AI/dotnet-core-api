@@ -4,7 +4,7 @@ metadata:
   name: autodeploy
   labels:
     app: autodeploy
-  namespace: namespace-workflow-1692811819315
+  namespace: namespace-workflow-1695639089892
 spec:
   replicas: 1
   selector:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: autodeploy
-          image: acrworkflow1692811819315.azurecr.io/image-workflow-1692811819315:latest
+          image: acrworkflow1695639089892.azurecr.io/image-workflow-1695639089892:latest
           ports:
             - containerPort: 5000
